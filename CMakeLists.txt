@@ -10,12 +10,12 @@ option(USE_ANDROID "Compile for android platform" OFF)
 if (ANDROID_ABI)
 add_definitions("-D__ANDROID__")
 endif()
-
+我的修改1
 add_subdirectory(common/src)
 add_subdirectory(demo/src/client_async)
 add_subdirectory(demo/src/client)
 add_subdirectory(demo/src/server)
-
+我的修改2
 # please uncomment following add_subdiretory lines as needed
 add_subdirectory(xl4-H72G-TBOX_Tuner/src/server)
 add_subdirectory(xl4-H72G-TBOX_DragReminder/src/server)
@@ -92,7 +92,7 @@ add_subdirectory(xl4-H72G-TBOX_IMU/src/client)
 add_subdirectory(xl4-H72G-HDMAP_EHP/src/client)
 add_subdirectory(xl4-H72G-HDMAP_IMU/src/client)
 
-
+我的修改3
 INSTALL(DIRECTORY ../someip_config/
 		DESTINATION /config
 		FILES_MATCHING PATTERN "*.xml")
