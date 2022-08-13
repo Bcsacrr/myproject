@@ -127,3 +127,4 @@ INSTALL(DIRECTORY ${PROJECT_SOURCE_DIR}/../../include/
 		FILES_MATCHING PATTERN "*.h")
 我的修改4 in web
 develop 分支的修改
+master分支,即debug版本独有的打印
